@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/sagesoft-btr-webapp/static/js/main.b396399d.js",
+    "main.css": "/sagesoft-btr-webapp/static/css/main.94270538.css",
+    "main.js": "/sagesoft-btr-webapp/static/js/main.8453caa5.js",
+    "static/js/963.858f25f5.chunk.js": "/sagesoft-btr-webapp/static/js/963.858f25f5.chunk.js",
     "index.html": "/sagesoft-btr-webapp/index.html",
-    "main.b396399d.js.map": "/sagesoft-btr-webapp/static/js/main.b396399d.js.map"
+    "main.94270538.css.map": "/sagesoft-btr-webapp/static/css/main.94270538.css.map",
+    "main.8453caa5.js.map": "/sagesoft-btr-webapp/static/js/main.8453caa5.js.map",
+    "963.858f25f5.chunk.js.map": "/sagesoft-btr-webapp/static/js/963.858f25f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b396399d.js"
+    "static/css/main.94270538.css",
+    "static/js/main.8453caa5.js"
   ]
 }
