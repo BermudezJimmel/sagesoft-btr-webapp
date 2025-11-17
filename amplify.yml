@@ -5,7 +5,7 @@ applications:
         preBuild:
           commands:
             - echo "Installing dependencies..."
-            - npm install
+            - npm ci --cache /tmp/.npm --prefer-offline --no-audit --progress=false
         build:
           commands:
             - echo "Building BTR Document Management System..."
@@ -17,3 +17,4 @@ applications:
       cache:
         paths:
           - node_modules/**/*
+          - /tmp/.npm/**/*
