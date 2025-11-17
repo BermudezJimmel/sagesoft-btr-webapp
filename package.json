@@ -3,27 +3,30 @@
   "version": "1.0.0",
   "description": "Bureau of Treasury Document Management System with AI Assistant",
   "main": "src/index.js",
-  "homepage": ".",
+  "homepage": "https://bermudezjimmel.github.io/sagesoft-btr-webapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.1.12",
+    "@aws-sdk/client-bedrock-runtime": "^3.651.1",
+    "@aws-sdk/client-s3": "^3.651.1",
+    "aws-amplify": "^6.0.25",
+    "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "@aws-amplify/ui-react": "^6.1.12",
-    "aws-amplify": "^6.0.25",
-    "@aws-sdk/client-s3": "^3.651.1",
-    "@aws-sdk/client-bedrock-runtime": "^3.651.1",
     "react-router-dom": "^6.26.2",
-    "axios": "^1.7.7"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.9",
-    "@types/react-dom": "^18.3.0"
+    "@types/react-dom": "^18.3.0",
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
