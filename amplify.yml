@@ -4,16 +4,11 @@ applications:
       phases:
         preBuild:
           commands:
-            - echo "Installing dependencies..."
-            - npm ci --legacy-peer-deps
+            - npm install --force
         build:
           commands:
-            - echo "Building BTR Document Management System..."
             - npm run build
       artifacts:
         baseDirectory: build
         files:
           - '**/*'
-      cache:
-        paths:
-          - node_modules/**/*
