@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/sagesoft-btr-webapp/static/js/main.b396399d.js",
+    "index.html": "/sagesoft-btr-webapp/index.html",
+    "main.b396399d.js.map": "/sagesoft-btr-webapp/static/js/main.b396399d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b396399d.js"
+  ]
+}
